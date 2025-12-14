@@ -30,19 +30,22 @@ This repository is my complete learning hub for mastering **AWS** and **Google C
 
 ## 📂 Repository Structure
 
+This repository documents my structured preparation for cloud certifications and hands-on cloud development.
+
+```text
 cloud-cert-notes/
 │
-├── aws-cloud-practitioner/ # Notes for AWS CCP
-├── aws-developer-associate/ # Notes for AWS Developer Associate
+├── aws-cloud-practitioner/        # Notes for AWS Cloud Practitioner (CCP)
+├── aws-developer-associate/       # Notes for AWS Developer Associate
 │
-├── gcp-digital-leader/ # Notes for GCP Digital Leader
-├── gcp-ace/ # Notes for GCP Associate Cloud Engineer
-├── gcp-ml-engineer/ # Notes for GCP ML Engineer
+├── gcp-digital-leader/            # Notes for GCP Digital Leader
+├── gcp-ace/                       # Notes for GCP Associate Cloud Engineer
+├── gcp-ml-engineer/               # Notes for GCP ML Engineer
 │
-├── python-practice/ # FastAPI, automation, pipeline scripts
-
-└── resources/ # PDFs, diagrams, reference material
-
+├── python-practice/               # FastAPI, automation, pipeline scripts
+│
+└── resources/                     # PDFs, diagrams, reference material
+```
 
 ---
 
