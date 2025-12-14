@@ -190,57 +190,18 @@ flowchart LR
 
 ### Responsibility Model: On-Prem vs IaaS vs PaaS vs SaaS
 
-```mermaid
-flowchart TB
+| Layer / Component | On-Premises | IaaS | PaaS | SaaS |
+|------------------|------------|------|------|------|
+| Applications     | You        | You  | You  | Provider |
+| Data             | You        | You  | You  | Provider |
+| Runtime          | You        | You  | Provider | Provider |
+| Middleware       | You        | You  | Provider | Provider |
+| Operating System | You        | You  | Provider | Provider |
+| Virtualization   | You        | Provider | Provider | Provider |
+| Servers          | You        | Provider | Provider | Provider |
+| Storage          | You        | Provider | Provider | Provider |
+| Networking       | You        | Provider | Provider | Provider |
 
-subgraph OnPrem[On-Premises - Managed by You]
-    OP_App[Applications]
-    OP_Data[Data]
-    OP_Runtime[Runtime]
-    OP_Middleware[Middleware]
-    OP_OS[Operating System]
-    OP_Virt[Virtualization]
-    OP_Servers[Servers]
-    OP_Storage[Storage]
-    OP_Network[Networking]
-end
-
-subgraph IaaS[IaaS - Infrastructure as a Service]
-    IA_App[Applications]
-    IA_Data[Data]
-    IA_Runtime[Runtime]
-    IA_Middleware[Middleware]
-    IA_OS[Operating System]
-    IA_Virt[Virtualization]
-    IA_Servers[Servers]
-    IA_Storage[Storage]
-    IA_Network[Networking]
-end
-
-subgraph PaaS[PaaS - Platform as a Service]
-    PA_App[Applications]
-    PA_Data[Data]
-    PA_Runtime[Runtime]
-    PA_Middleware[Middleware]
-    PA_OS[Operating System]
-    PA_Virt[Virtualization]
-    PA_Servers[Servers]
-    PA_Storage[Storage]
-    PA_Network[Networking]
-end
-
-subgraph SaaS[SaaS - Software as a Service]
-    SA_App[Applications]
-    SA_Data[Data]
-    SA_Runtime[Runtime]
-    SA_Middleware[Middleware]
-    SA_OS[Operating System]
-    SA_Virt[Virtualization]
-    SA_Servers[Servers]
-    SA_Storage[Storage]
-    SA_Network[Networking]
-end
-```
 ---
 
 ## Examples of Cloud Computing Types
